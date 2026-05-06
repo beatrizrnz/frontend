@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #dcd4c1;
+    text-align: center;
+}
+
+/* HERO (BANNER) */
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+header h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Parisienne", cursive;
+}
+
+header p {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: "Prata", serif;
+}
+
+header button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border: none;
+    background-color: #fadad9;
+    color: white;
+    border-radius: 20px;
+    font-family: "Prata", serif;
+}
+
+/* SEÇÃO IMAGEM + TEXTO */
+section:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    font-family: "Prata", serif;
+}
+section h2{
+    font-family: "Parisienne", cursive;
+}
+
+section p {
+    font-family: "Prata", serif;
+
+}
+
+section:first-of-type img {
+    width: 200px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+/* BENEFÍCIOS */
+section:nth-of-type(2) div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 40px;
+    font-family: "Prata", serif;
+}
+
+article {
+    background-color: #fadad9;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #fadad9;
+    padding: 20px;
+    font-family: "Parisienne", cursive;
+}
+section:nth-of-type(3) {
+    display: flex;
+    justify-content: center; /* centraliza no meio */
+    align-items: center;
+    gap: 20px;
+    font-family: "Prata", serif;
+
+}
+
+
+section:nth-of-type(3) article {
+    width: 220px;
+    background-color: #fadad9;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Prata", serif;
+}
